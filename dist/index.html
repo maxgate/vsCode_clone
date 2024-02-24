@@ -6,9 +6,9 @@
     <title>Vscode</title>
     <link rel="stylesheet" href="./output.css" />
   </head>
-  <body class="bg-gray-950">
+  <body class="bg-gray-900">
     <!-- nav bar -->
-    <nav class="bg-gray-900">
+    <nav class="bg-gray-950 fixed top-0 left-0 w-full">
       <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div class="relative flex h-16 items-center justify-between">
           <div
@@ -25,31 +25,31 @@
               >
               <div>
                 <span
-                  class="text-white px-4 text-md font-semibold hover:cursor-pointer"
+                  class="text-gray-400 px-4 text-md font-semibold hover:cursor-pointer hover:text-gray-100"
                   >Docs</span
                 >
                 <span
-                  class="text-gray-400 px-4 text-md font-semibold hover:cursor-pointer"
+                  class="text-gray-400 px-4 text-md font-semibold hover:cursor-pointer hover:text-gray-100"
                   >Updates</span
                 >
                 <span
-                  class="text-gray-400 px-4 text-md font-semibold hover:cursor-pointer"
+                  class="text-gray-400 px-4 text-md font-semibold hover:cursor-pointer hover:text-gray-100"
                   >Blog</span
                 >
                 <span
-                  class="text-gray-400 px-4 text-md font-semibold hover:cursor-pointer"
+                  class="text-gray-400 px-4 text-md font-semibold hover:cursor-pointer hover:text-gray-100"
                   >API</span
                 >
                 <span
-                  class="text-gray-400 px-4 text-md font-semibold hover:cursor-pointer"
+                  class="text-gray-400 px-4 text-md font-semibold hover:cursor-pointer hover:text-gray-100"
                   >Extensions</span
                 >
                 <span
-                  class="text-gray-400 px-4 text-md font-semibold hover:cursor-pointer"
+                  class="text-gray-400 px-4 text-md font-semibold hover:cursor-pointer hover:text-gray-100"
                   >FAQ</span
                 >
                 <span
-                  class="text-gray-400 px-4 text-md font-semibold hover:cursor-pointer"
+                  class="text-gray-400 px-4 text-md font-semibold hover:cursor-pointer hover:text-gray-100"
                   >Learn</span
                 >
                 <input
@@ -60,7 +60,7 @@
                   placeholder="Search Docs"
                 />
                 <span
-                  class="bg-blue-700 text-white text-md font-bold rounded-md px-4 py-1.5"
+                  class="bg-blue-700 text-white text-md font-bold rounded-md px-4 py-1.5 hover:bg-blue-600 hover:cursor-pointer"
                   >Download</span
                 >
               </div>
@@ -69,7 +69,7 @@
         </div>
       </div>
     </nav>
-    <div class="bg-gray-800 text-center py-2">
+    <div class="bg-gray-900 text-center pt-16 pb-4">
       <span class="text-blue-600">version 1.86</span>
       <span class="text-gray-400 text-sm font-semibold"
         >is now available! Read about the new features and fixes from
@@ -77,7 +77,7 @@
       >
     </div>
     <!-- section 1 -->
-    <div class="grid grid-cols-3">
+    <div class="grid grid-cols-3 pb-16">
       <div class="my-16">
         <span
           class="text-sm rounded-full text-gray-100 ml-16 py-2 px-2 pr-16 bg-gray-900 border border-solid border-gray-500"
@@ -127,11 +127,52 @@
         </div>
       </div>
       <div class="col-span-2 mx-16 py-16">
+        <img src="./images/pix1.png" alt="" class="" />
+      </div>
+    </div>
+    <!-- section 2 -->
+    <div class="bg-gray-950 grid grid-cols-3 py-20">
+      <div class="col-span-2 pl-16">
+        <h2 class="text-gray-400 text-2xl font-semibold px-28">
+          <span class="text-gray-100">Visual Studio Code</span> is a
+          lightweight, powerful source code editor available on Windows, macOS,
+          Linux, and even your browser. It comes with built-in support for
+          JavaScript, TypeScript and Node.js and has a rich ecosystem of
+          extensions for other languages and runtimes.
+        </h2>
+      </div>
+      <div class="grid grid-cols-3 pr-16 font-semibold">
+        <img src="./images/language-js.png" alt="js" />
+        <img src="./images/language-ts.png" alt= />
+        <img src="./images/language-python.png" alt="" />
+
+        <img src="./images/language-cs.png" alt="" />
+        <img src="./images/language-cpp.png" alt="" />
+        <img src="./images/language-html.png" alt="" />
+
+        <img src="./images/language-java.png" alt="" />
+        <img src="./images/language-json.png" alt="" />
+        <img src="./images/language-php.png" alt="" />
+
+        <img src="./images/language-markdown.png" alt="" />
+        <img src="./images/language-powershell.png" alt="" />
+        <img src="./images/language-yaml.png" alt="" />
+      </div>
+    </div>
+    <!-- section 3 -->
+    <div class="grid grid-cols-2">
+      <div></div>
+      <div class="flex border border-solid border-gray-100 w-64 rounded-lg">
         <img
-          src="./images/pix1.png"
-          alt=""
-          class=""
+          src="./images/python-extension-pix.png"
+          loading="lazy"
+          title="Python extension icon"
+          class="w-20 h-20 py-4"
         />
+        <div class="px-4 py-4">
+          <h3 class="text-gray-100 text-xl font-bold">Python</h3>
+          <p class="text-gray-100">Adds rich language support for Python</p>
+        </div>
       </div>
     </div>
   </body>
